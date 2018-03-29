@@ -1,0 +1,34 @@
+.card {
+  background: rgb(50, 61, 207);
+  border-radius: 2px;
+  height: 200;
+  margin: 1rem;
+  position: relative;
+  width: 200; 
+  box-shadow: 0 3px 6px #000, 0 3px 6px #000;
+}
+
+.flex-container {
+  padding: 10px;
+  margin: 20px;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flex-item {
+  padding: 5px;
+  width: 200;
+  height: 200;
+  margin-top: 10px; 
+}
+
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+
+
+
