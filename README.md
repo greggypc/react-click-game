@@ -1,7 +1,6 @@
 # Transformers Memory Game
 
 This application is a memory game built with with React. 
-I broke the application's UI into components, managed component state, and respond to user events.
 
 ### Instructions
 
