@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = props => (
   <header>
-    <h3>&copy;Get Clickin' Ltd.</h3>
+    <h3 id="footer">&copy; Get Clickin' Ltd.</h3>
   </header>
 );
 

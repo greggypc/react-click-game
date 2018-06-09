@@ -2,61 +2,61 @@
   {
   "id": 1,  
   "name": "Square 01",
-  "image": "../assets/square01.jpg"
+  "image": "./assets/square01.jpg"
 },
 {
   "id": 2,
   "name": "Square 02",
-  "image": "../assets/square02.jpg"
+  "image": "./assets/square02.jpg"
 },
 {
   "id": 3,
   "name": "Square 03",
-  "image": "../assets/square03.jpg"
+  "image": "./assets/square03.jpg"
 },
 {
   "id": 4,
   "name": "Square 04",
-  "image": "../assets/square04.jpg"
+  "image": "./assets/square04.jpg"
 },
 {
   "id": 5,
   "name": "Square 05",
-  "image": "../assets/square05.jpg"
+  "image": "./assets/square05.jpg"
 },
 {
   "id": 6,
   "name": "Square 06",
-  "image": "../assets/square06.jpg"
+  "image": "./assets/square06.jpg"
 },
 {
   "id": 7,
   "name": "Square 07",
-  "image": "../assets/square07.jpg"
+  "image": "./assets/square07.jpg"
 },
 {
   "id": 8,
   "name": "Square 08",
-  "image": "../assets/square08.jpg"
+  "image": "./assets/square08.jpg"
 },
 {
   "id": 9,
   "name": "Square 09",
-  "image": "../assets/square09.jpg"
+  "image": "./assets/square09.jpg"
 },
 {
   "id": 10,
   "name": "Square 10",
-  "image": "../assets/square10.jpg"
+  "image": "./assets/square10.jpg"
 },
 {
   "id": 11,
   "name": "Square 11",
-  "image": "../assets/square11.jpg"
+  "image": "./assets/square11.jpg"
 },
 {
   "id": 12,
   "name": "Square 12",
-  "image": "../assets/square12.jpg"
+  "image": "./assets/square12.jpg"
 }
 ]

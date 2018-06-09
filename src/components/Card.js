@@ -3,7 +3,7 @@ import "../css/Card.css";
 
 const Card = props => (
     <div 
-      className="flex-item card" 
+      className="flexItem card" 
       onClick={() => props.justClicked(props.id)} 
     >
       <img alt={props.name} src={props.image} />

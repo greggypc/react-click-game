@@ -8,7 +8,7 @@ import '../css/App.css';
 
 let correctGuesses = 0;
 let bestScore = 0;
-let clickMessage = `Click on an image, but don't click an image twice!`;
+let clickMessage = `Click the 12 unique images without clicking an image twice!`;
 
 class App extends React.Component {
 
@@ -117,7 +117,7 @@ winGame(clickedMatch) {
           <h3 className="scoreSummary">
               Your Best Score: {this.state.bestScore} 
           </h3>
-          <div className="flex-container">
+          <div className="flexContainer">
             {this.state.cards.map(card => (
               <Card
               justClicked={this.justClicked}
