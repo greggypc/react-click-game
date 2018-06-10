@@ -5,7 +5,7 @@ import logo from "../img/transformers.jpg"
 const Header = props => (
   <header className="header">
     <img 
-      className="img"
+      className="headerImg"
       src={logo} 
       alt="Transformers Clicky Game!" />
   </header>

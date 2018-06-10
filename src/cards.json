@@ -2,61 +2,73 @@
   {
   "id": 1,  
   "name": "Square 01",
+  "class": "tformerImg",
   "image": "./assets/square01.jpg"
 },
 {
   "id": 2,
+  "class": "tformerImg",
   "name": "Square 02",
   "image": "./assets/square02.jpg"
 },
 {
   "id": 3,
   "name": "Square 03",
+  "class": "tformerImg",
   "image": "./assets/square03.jpg"
 },
 {
   "id": 4,
   "name": "Square 04",
+  "class": "tformerImg",
   "image": "./assets/square04.jpg"
 },
 {
   "id": 5,
   "name": "Square 05",
+  "class": "tformerImg",
   "image": "./assets/square05.jpg"
 },
 {
   "id": 6,
   "name": "Square 06",
+  "class": "tformerImg",
   "image": "./assets/square06.jpg"
 },
 {
   "id": 7,
   "name": "Square 07",
+  "class": "tformerImg",
   "image": "./assets/square07.jpg"
 },
 {
   "id": 8,
   "name": "Square 08",
+  "class": "tformerImg",
   "image": "./assets/square08.jpg"
 },
 {
   "id": 9,
   "name": "Square 09",
+  "class": "tformerImg",
   "image": "./assets/square09.jpg"
 },
 {
   "id": 10,
   "name": "Square 10",
+  "class": "tformerImg",
   "image": "./assets/square10.jpg"
 },
 {
   "id": 11,
   "name": "Square 11",
+  "class": "tformerImg",
   "image": "./assets/square11.jpg"
 },
 {
   "id": 12,
   "name": "Square 12",
+  "class": "tformerImg",
   "image": "./assets/square12.jpg"
 }
 ]

@@ -43,7 +43,7 @@ justClicked = id => {
 
 gameOver() {
   correctGuesses = 0;
-  clickMessage = "You already clicked that image! Start Over"
+  clickMessage = "Already clicked that image! Start Over"
 
   cards.map((currElement, i) => {
     return cards[i].clicked = false;
@@ -122,6 +122,7 @@ winGame(clickedMatch) {
               <Card
               justClicked={this.justClicked}
               id={card.id}
+              class={card.class}
               key={card.id}
               name={card.name}
               image={card.image} 

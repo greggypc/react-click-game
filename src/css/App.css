@@ -10,8 +10,14 @@ body {
   align-items: center; /* align vertical */
 }
 
+.headerImg {
+  width: 70%;
+}
+
 .scoreSummary {
   width: 100%;
+  padding: 5px;
+  line-height:28px;
   text-align: center;
   margin-bottom: 20px;	
   color: #ccc;
@@ -23,5 +29,29 @@ h1, h3 {
 }
 
 #footer {
-  padding-top: 60px;
+  padding-top: 40px;
+}
+
+
+/* =======MEDIA QUERIES====== */
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 80%;
+    padding: 5px;
+  }  
+}
+
+@media (max-width: 767px) {
+  .scoreSummary {
+    line-height: 16px;
+    margin-bottom: 0px;	
+
+  }
+  #footer {
+    padding-top: 0px;
+  }
 }

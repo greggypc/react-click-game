@@ -6,7 +6,7 @@ const Card = props => (
       className="flexItem card" 
       onClick={() => props.justClicked(props.id)} 
     >
-      <img alt={props.name} src={props.image} />
+      <img class={props.class} alt={props.name} src={props.image} />
     </div>
 );
 
