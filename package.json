@@ -1,6 +1,6 @@
 {
   "name": "clicky",
-  "homepage": "https://greggypc.github.io/clicky-react/",
+  "homepage": "https://greggypc.github.io/react-click-game/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
