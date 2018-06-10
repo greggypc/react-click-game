@@ -9,6 +9,7 @@ import '../css/App.css';
 let correctGuesses = 0;
 let bestScore = 0;
 let clickMessage = `Click the 12 unique images without clicking an image twice!`;
+let shake;
 
 class App extends React.Component {
 
@@ -42,6 +43,9 @@ justClicked = id => {
 };
 
 gameOver() {
+  shake = {
+    animation: `shake .5s .0125s`
+  }
   correctGuesses = 0;
   clickMessage = "Already clicked that image! Start Over"
 
@@ -55,6 +59,7 @@ gameOver() {
 };
 
 continuePlay(clickedMatch) {
+  shake= {};
   // Set its value to true
   clickedMatch[0].clicked = true;
 
@@ -117,7 +122,7 @@ winGame(clickedMatch) {
           <h3 className="scoreSummary">
               Your Best Score: {this.state.bestScore} 
           </h3>
-          <div className="flexContainer">
+          <div className="flexContainer" style={shake}>
             {this.state.cards.map(card => (
               <Card
               justClicked={this.justClicked}
