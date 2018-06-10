@@ -1,6 +1,8 @@
 # Transformers Memory Game
 
-This application is a memory game built with with React. 
+This application is a memory game built with with React.
+
+<b>Transformers Memory Game is deployed here:</b> https://greggypc.github.io/react-click-game/ 
 
 ### Instructions
 
@@ -14,7 +16,6 @@ This application is a memory game built with with React.
 
 5. The application keeps track of the users Best Score, and updates it when the user achieves a new Best Score.
 
-<b>Transformers Memory Game is deployed here:</b> https://greggypc.github.io/rearc-click-game/
 
 <b>Technologies Used:</b>
 - React
